@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(249, 236, 236);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover , #nextButtom:hover  {
+    background-color: #0056b3;
+}
+
+#boutonRetour {
+    background-color: rgb(249, 236, 236);
+    color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le fond et la couleur */
+}
+
+#boutonRetour:hover {
+    background-color: lightpink; /* Nouvelle couleur de fond au survol */
+    color: darkorchid; /* Nouvelle couleur de texte au survol */
+}
+
+
+h1{
+    color:deeppink ;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#answer{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: azure;
+    text-shadow: #ccc 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.options button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+#nextButton {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: blue; /* Couleur de base */
+    transition: background-color 0.3s; /* Animation de transition fluide */
+}
+
+#nextButton:hover {
+    background-color: darkblue; /* Couleur au survol */
+}
+
+
+.nex{
+    text-align: center;
+}
+ 

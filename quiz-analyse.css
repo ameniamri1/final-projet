@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 248, 237);
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1 {
+    text-align: center;
+    color:deeppink;
+}
+
+
+
+
+
+
+
+#score {
+    text-align: center;
+    font-size: 18px;
+    color: deeppink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+button{
+    display: block;
+}
+
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(250, 240, 240);
+    
+    
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.options button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le fond et la couleur */
+}
+
+.options button:hover {
+    background-color: #45a049; /* Nouvelle couleur de fond au survol */
+    color: #f2f2f2; /* Nouvelle couleur de texte au survol */
+}
+
+#boutonRetour {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: pink;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le fond et la couleur */
+}
+
+#boutonRetour:hover {
+    background-color: lightpink; /* Nouvelle couleur de fond au survol */
+    color: darkgreen; /* Nouvelle couleur de texte au survol */
+}
+
+
+.result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#nextButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le fond et la couleur */
+}
+
+#nextButton:hover {
+    background-color: #45a049; /* Nouvelle couleur de fond au survol */
+    color: #f2f2f2; /* Nouvelle couleur de texte au survol */
+}
+
+ a  {
+    text-decoration: none;
+}

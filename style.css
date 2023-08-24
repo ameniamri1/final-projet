@@ -1,0 +1,175 @@
+
+body {
+    margin: 0; 
+    padding: 0; 
+    background-image: url('https://images.pexels.com/photos/2008145/pexels-photo-2008145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+.connexion input {
+    background-color: transparent;
+    padding: 10px 20px ;
+margin: 10px;}
+.n1{
+    display: flex; 
+    justify-content: center; 
+    align-items:end; 
+    min-height: 100vh; 
+    flex-direction: column;
+    padding-right: 10PX;
+   
+
+}
+.connexion{
+    display: flex;
+    flex-direction: column;
+    padding-right :100PX;
+    padding-top: 190PX;
+    
+}
+.connexion button{
+    background-color:  rgb(140, 87, 191);
+    border: rgb(140, 87, 191);
+    color: #ffffff;           
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.n1 p{
+   font-family:  Brush Script MT, Brush Script Std, cursive;
+   color: wheat;
+   -webkit-text-stroke: 1px violet;
+   font-size: 25px;
+
+}
+.navbar h1{
+    font-family:  Brush Script MT, Brush Script Std;
+    font-size: 60px;
+    
+    color: violet;
+   -webkit-text-stroke: 1px violet;
+   padding-left: 330px;
+}
+header{
+    
+   
+    position: fixed;
+    padding-left: 100px;
+}
+.an{
+    
+    background-color: transparent;
+    padding: 10px 20px ;
+    margin: 10px;
+    color: grey;
+    border: 2px solid;
+    cursor: pointer;
+}
+.an li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .an div:hover {
+    background-color: transparent;
+  }
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 20px;
+    top:0px
+  }
+  .list{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .d1 li{
+    padding: 0px 10px;
+    color: violet;
+    font-family: Impact, fantasy;
+  }
+  #apropos{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: violet;
+    font-family: Impact, fantasy;
+
+  }
+  .custom-select {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .trigger {
+    border: none;
+    padding: 5px;
+  }
+  
+  .options ,.options2 {
+    display: none;
+    position: absolute;
+    background-color: violet;
+    border: 1px solid #ccc;
+    padding: 5px;
+    list-style-type: none;
+  }
+  
+  .custom-select:hover .options {
+    display: block;
+  }
+  .arrow-down ,.c1{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid violet; 
+    margin-top: 10px;
+
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  .options a , .options2 a{
+    color: bisque;
+    cursor: pointer;
+  }
+ 
+
+
+  
+ 
+  
+
+  
+  
+
+  
+  
+  
+  
+ 
+ 
+  #liens-options {
+    display: none; /* Masquer les liens au départ */
+    cursor: pointer;
+  }
+  
+  #liens-utiles:hover + .c1 + #liens-options,
+  #liens-options:hover {
+    display: block; /* Afficher les liens lors du survol */
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  
+
+  
+  
+  

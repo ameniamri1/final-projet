@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mots-croisees.css">
+</head>
+<body>
+    <div class="divv1">
+    <div class="container">
+        <h1>Jeu d'Algèbre</h1>
+        <div class="equation" id="equation"></div>
+        <input type="text" id="answer" placeholder="Votre réponse">
+        <button onclick="checkAnswer()">Vérifier</button>
+        <div class="result" id="result"></div>
+        <div class="nex">
+        <button id="nextButton" onclick="nextEquation()" style="display: none;">Équation suivante</button></div>
+        <a href="next.html">
+            <div class="ret">
+            <button id="boutonRetour">Retour</button></div></a>
+    </div>
+    
+
+  </div>
+    <script src="mots-croisees.js"></script>
+</body>
+</html>
